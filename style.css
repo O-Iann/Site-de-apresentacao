@@ -55,40 +55,143 @@ body {
 }
 
 #container2 {
+  align-self: center;
   width: 460px;
   height: 712px;
   margin: auto;
-
   margin-top: 50px;
 }
-#container3 {
-  width: 346px;
-  height: 224px;
-  margin: auto;
 
-  margin-top: 50px;
-  margin-bottom: 10px;
+ul {
+  list-style: none;
 }
 
-#img3 img {
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+section ul li:hover {
+  transform: scale(1.1);
+}
+
+.certificados-v {
+  display: flex;
+  gap:;
+}
+#certificado1 img {
   width: 168px;
   height: 224px;
   margin-top: 30px;
-  display: inline;
   border-radius: 10px;
-  margin-left: 3px;
+  margin-left: 56px;
+}
+#certificado1 {
+  width: 100%;
+  transition: 4s all ease-in-out;
+}
+#certificado1:hover img {
+  transform: scale(4);
 }
 
-#img4 img {
+#certificado3 img {
+  width: 168px;
+  height: 224px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+#certificado3 {
+  width: 100%;
+  transition: 4s all ease-in-out;
+}
+#certificado3:hover img {
+  transform: scale(4);
+}
+.certificados-h {
+  display: flex;
+  gap: 10px;
+}
+
+#certificado2 img {
   width: 224px;
   height: 168px;
   margin-top: 30px;
-  display: inline-block;
+  border-radius: 10px;
+  display: block;
+}
+
+#certificado2 {
+  width: 100%;
+  transition: 4s all ease-in-out;
+}
+#certificado2:hover img {
+  transform: scale(4);
+}
+
+.certificados-h2 {
+  display: flex;
+  gap: 10px;
+}
+
+#certificado4 img {
+  width: 224px;
+  height: 168px;
+  margin-top: 30px;
+  border-radius: 10px;
+  display: block;
+}
+
+#certificado4 {
+  width: 100%;
+  transition: 4s all ease-in-out;
+}
+#certificado4:hover img {
+  transform: scale(4);
+}
+
+#film1 img {
+  width: 168px;
+  height: 224px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-left: 56px;
+}
+
+#film2 img {
+  width: 168px;
+  height: 224px;
+  margin-top: 30px;
   border-radius: 10px;
   margin-left: 3px;
 }
+#film3 img {
+  width: 168px;
+  height: 224px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-left: 140px;
+  margin-bottom: 100px;
+}
 
-@media (min-width 700px) {
+.filmes1 {
+  display: flex;
+  gap: 10px;
+}
+.filmes2 {
+  display: flex;
+  gap: 10px;
+}
+
+#text2 h1 {
+  text-align: center;
+  margin-top: 120px;
+  color: antiquewhite;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media (min-width360px) {
   :root {
     --bg-url: url(./assets/bg-mobile.jpg);
   }
