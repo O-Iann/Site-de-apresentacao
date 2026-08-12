@@ -92,7 +92,7 @@ section ul li:hover {
   transition: 4s all ease-in-out;
 }
 #certificado1:hover img {
-  transform: scale(4);
+  transform: scale(2);
 }
 
 #certificado3 img {
@@ -107,7 +107,7 @@ section ul li:hover {
   transition: 4s all ease-in-out;
 }
 #certificado3:hover img {
-  transform: scale(4);
+  transform: scale(2);
 }
 .certificados-h {
   display: flex;
@@ -127,7 +127,7 @@ section ul li:hover {
   transition: 4s all ease-in-out;
 }
 #certificado2:hover img {
-  transform: scale(4);
+  transform: scale(2);
 }
 
 .certificados-h2 {
@@ -148,7 +148,7 @@ section ul li:hover {
   transition: 4s all ease-in-out;
 }
 #certificado4:hover img {
-  transform: scale(4);
+  transform: scale(2);
 }
 
 #film1 img {
@@ -191,7 +191,7 @@ section ul li:hover {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-@media (min-width360px) {
+@media (min-width: 360px) {
   :root {
     --bg-url: url(./assets/bg-mobile.jpg);
   }
