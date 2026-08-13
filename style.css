@@ -151,6 +151,27 @@ section ul li:hover {
   transform: scale(2);
 }
 
+.certificados-h3 {
+  display: flex;
+  gap: 10px;
+}
+
+#certificado5 img {
+  width: 224px;
+  height: 168px;
+  margin-top: 30px;
+  border-radius: 10px;
+  display: inline;
+}
+
+#certificado5 {
+  width: 100%;
+  transition: 4s all ease-in-out;
+}
+#certificado5:hover img {
+  transform: scale(2);
+}
+
 #film1 img {
   width: 168px;
   height: 224px;
